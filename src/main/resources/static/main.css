@@ -1,0 +1,12 @@
+#nav-items {
+    list-style-type: none;
+    padding: 0;
+    width: 705px;
+    align-items: center;
+    color: white;
+}
+
+.has-menu {
+    color: white;
+    font-size: 18px;
+}

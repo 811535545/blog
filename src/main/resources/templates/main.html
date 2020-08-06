@@ -6,6 +6,7 @@
           th:href="@{/webjars/bootstrap/3.3.7/css/bootstrap.min.css}">
     <title>博客首页</title>
 </head>
+
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
@@ -15,16 +16,55 @@
                     aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar">
-                </span><span class="icon-bar"></span> <span
-                    class="icon-bar">
+                </span><span class="icon-bar"></span> <span class="icon-bar">
                 </span>
             </button>
-            <a class="navbar-brand" href="#" th:href="@{/}">Hu Blog</a>
+            <a class="navbar_brand" href="#" th:href="@{/mainPage}">Hu Blog</a>
+            <ul class="nav-ul" id="nav-items">
+                <li>
+                    <div class="has-menu" id="title1">
+                        <span tabindex="1">Title1</span>
+                        <div class="nav-arrow"></div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="has-menu" id="title2">
+                        <span tabindex="2">Title2</span>
+                        <div class="nav-arrow"></div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="has-menu" id="title3">
+                        <span tabindex="3">Title3</span>
+                        <div class="nav-arrow"></div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="has-menu" id="title4">
+                        <span tabindex="4">Title4</span>
+                        <div class="nav-arrow"></div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="has-menu" id="title5">
+                        <span tabindex="4">Title5</span>
+                        <div class="nav-arrow"></div>
+                    </div>
+                </li>
+            </ul>
+
         </div>
     </div>
+
+
 </nav>
 
-<style type="text/css"> .navbar-brand {
+
+<style type="text/css"> .navbar_brand {
     font-size: 24px;
     color: white;
 }
