@@ -21,4 +21,13 @@ public class MainController {
     public String userIndex() {
         return "user/index";
     }
+
+    /**
+     * 登陆成功，随意访问资源
+     */
+    @GetMapping("/mainPage")
+    public String mainPage() {
+        return "main";
+    }
+
 }
