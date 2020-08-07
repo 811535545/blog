@@ -8,64 +8,66 @@
 </head>
 
 <body>
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed"
-                    data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-                    aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar">
+
+<div class="header">
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed"
+                        data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                        aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar">
                 </span><span class="icon-bar"></span> <span class="icon-bar">
                 </span>
-            </button>
-            <a class="navbar_brand" href="#" th:href="@{/mainPage}">Hu Blog</a>
-            <ul class="nav-ul" id="nav-items">
-                <li>
-                    <div class="has-menu" id="title1">
-                        <span tabindex="1">Title1</span>
-                        <div class="nav-arrow"></div>
-                    </div>
-                </li>
-
-                <li>
-                    <div class="has-menu" id="title2">
-                        <span tabindex="2">Title2</span>
-                        <div class="nav-arrow"></div>
-                    </div>
-                </li>
-
-                <li>
-                    <div class="has-menu" id="title3">
-                        <span tabindex="3">Title3</span>
-                        <div class="nav-arrow"></div>
-                    </div>
-                </li>
-
-                <li>
-                    <div class="has-menu" id="title4">
-                        <span tabindex="4">Title4</span>
-                        <div class="nav-arrow"></div>
-                    </div>
-                </li>
-
-                <li>
-                    <div class="has-menu" id="title5">
-                        <span tabindex="4">Title5</span>
-                        <div class="nav-arrow"></div>
-                    </div>
-                </li>
-            </ul>
-
+                </button>
+                <a class="navbar_brand" href="#" th:href="@{/mainPage}">Hu Blog</a>
+            </div>
         </div>
+    </nav>
+</div>
+
+<div class="content">
+
+    <div id="nav">
+
+        <ul>
+
+            <li><a href="http://localhost:8080/mainPage" title="">superbirds1</a></li>
+
+            <li><a href="http://localhost:8080/mainPage" title="">superbirds2</a></li>
+
+            <li><a href="http://localhost:8080/mainPage" title="">superbirds3</a></li>
+
+            <li><a href="http://localhost:8080/mainPage" title="">superbirds4</a></li>
+
+        </ul>
+
     </div>
 
+    <div class="green-black">
+        <span class="disabled">&lt; Prev</span>
+        <span class="current">1</span>
+        <a href="#?page=2">2</a>
+        <a href="#?page=3">3</a>
+        <a href="#?page=4">4</a>
+        <a href="#?page=5">5</a>
+        <a href="#?page=6">6</a>
+        <a href="#?page=7">7</a>...
+        <a href="#?page=199">199</a>
+        <a href="#?page=200">200</a>
+        <a href="#?page=2">Next &gt;</a>
+    </div>
+</div>
 
-</nav>
 
+<div class="footer">
+    这里是底部
+</div>
+<!-- 代码 结束 -->
 
 <style type="text/css"> .navbar_brand {
-    font-size: 24px;
+    font-size: 34px;
     color: white;
 }
 </style>
