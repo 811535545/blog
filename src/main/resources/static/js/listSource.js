@@ -1,199 +1,198 @@
+const testData = {
 
-var testboke = {
+    "code": 200,
 
-    "code":200,
+    "message": null,
 
-    "message":null,
+    "data": {
 
-    "data":{
+        "total": 17,//总条数
 
-        "total":17,//总条数
+        "size": 10,//分页大小-默认为0
 
-        "size":10,//分页大小-默认为0
+        "pages": 2,//总页数
 
-        "pages":2,//总页数
+        "current": 1,//当前页数
 
-        "current":1,//当前页数
-
-        "records":[//author-riverLethe-double-slash-note数据部分
+        "records": [//author-riverLethe-double-slash-note数据部分
 
             {
 
-                "id":17,//项目id
+                "id": 17,//项目id
 
-                "userName":"Night夜",//发起人名称
+                "userName": "Night夜",//发起人名称
 
-                "companyName":"康佰裕",//发起人公司名称
+                "companyName": "康佰裕",//发起人公司名称
 
-                "ptypeName":"13",//发起项目类别
+                "ptypeName": "13",//发起项目类别
 
-                "pask":"13",
+                "pask": "13",
 
-                "pname":"13",
+                "pname": "13",
 
-                "pdesc":"13"
+                "pdesc": "13"
 
             },
 
             {
 
-                "id":16,
+                "id": 16,
 
-                "userName":"Night夜",
+                "userName": "Night夜",
 
-                "companyName":"康佰裕",
+                "companyName": "康佰裕",
 
-                "ptypeName":"12",
+                "ptypeName": "12",
 
-                "pask":"12",
+                "pask": "12",
 
-                "pname":"12",
+                "pname": "12",
 
-                "pdesc":"12"
-
-            },
-
-            {
-
-                "id":15,
-
-                "userName":"BB机",
-
-                "companyName":"北京电影",
-
-                "ptypeName":"11",
-
-                "pask":"11",
-
-                "pname":"11",
-
-                "pdesc":"11"
+                "pdesc": "12"
 
             },
 
             {
 
-                "id":14,
+                "id": 15,
 
-                "userName":"BB机",
+                "userName": "BB机",
 
-                "companyName":"北京电影",
+                "companyName": "北京电影",
 
-                "ptypeName":"9",
+                "ptypeName": "11",
 
-                "pask":"9",
+                "pask": "11",
 
-                "pname":"9",
+                "pname": "11",
 
-                "pdesc":"9"
-
-            },
-
-            {
-
-                "id":13,
-
-                "userName":"BB机",
-
-                "companyName":"北京电影",
-
-                "ptypeName":"7",
-
-                "pask":"7",
-
-                "pname":"7",
-
-                "pdesc":"7"
+                "pdesc": "11"
 
             },
 
             {
 
-                "id":12,
+                "id": 14,
 
-                "userName":"Night夜",
+                "userName": "BB机",
 
-                "companyName":"康佰裕",
+                "companyName": "北京电影",
 
-                "ptypeName":"6",
+                "ptypeName": "9",
 
-                "pask":"6",
+                "pask": "9",
 
-                "pname":"6",
+                "pname": "9",
 
-                "pdesc":"6"
-
-            },
-
-            {
-
-                "id":11,
-
-                "userName":"BB机",
-
-                "companyName":"北京电影",
-
-                "ptypeName":"5",
-
-                "pask":"5",
-
-                "pname":"5",
-
-                "pdesc":"5"
+                "pdesc": "9"
 
             },
 
             {
 
-                "id":10,
+                "id": 13,
 
-                "userName":"Night夜",
+                "userName": "BB机",
 
-                "companyName":"康佰裕",
+                "companyName": "北京电影",
 
-                "ptypeName":"4",
+                "ptypeName": "7",
 
-                "pask":"4",
+                "pask": "7",
 
-                "pname":"4",
+                "pname": "7",
 
-                "pdesc":"4"
-
-            },
-
-            {
-
-                "id":9,
-
-                "userName":"BB机",
-
-                "companyName":"北京电影",
-
-                "ptypeName":"3",
-
-                "pask":"3",
-
-                "pname":"3",
-
-                "pdesc":"3"
+                "pdesc": "7"
 
             },
 
             {
 
-                "id":8,
+                "id": 12,
 
-                "userName":"Night夜",
+                "userName": "Night夜",
 
-                "companyName":"康佰裕",
+                "companyName": "康佰裕",
 
-                "ptypeName":"2",
+                "ptypeName": "6",
 
-                "pask":"2",
+                "pask": "6",
 
-                "pname":"2",
+                "pname": "6",
 
-                "pdesc":"2"
+                "pdesc": "6"
+
+            },
+
+            {
+
+                "id": 11,
+
+                "userName": "BB机",
+
+                "companyName": "北京电影",
+
+                "ptypeName": "5",
+
+                "pask": "5",
+
+                "pname": "5",
+
+                "pdesc": "5"
+
+            },
+
+            {
+
+                "id": 10,
+
+                "userName": "Night夜",
+
+                "companyName": "康佰裕",
+
+                "ptypeName": "4",
+
+                "pask": "4",
+
+                "pname": "4",
+
+                "pdesc": "4"
+
+            },
+
+            {
+
+                "id": 9,
+
+                "userName": "BB机",
+
+                "companyName": "北京电影",
+
+                "ptypeName": "3",
+
+                "pask": "3",
+
+                "pname": "3",
+
+                "pdesc": "3"
+
+            },
+
+            {
+
+                "id": 8,
+
+                "userName": "Night夜",
+
+                "companyName": "康佰裕",
+
+                "ptypeName": "2",
+
+                "pask": "2",
+
+                "pname": "2",
+
+                "pdesc": "2"
 
             }
 
@@ -201,4 +200,4 @@ var testboke = {
 
     }
 
-}
+};
