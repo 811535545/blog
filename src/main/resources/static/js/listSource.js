@@ -56,7 +56,7 @@ const testData = {
 
                 "id": 15,
 
-                "userName": "BB机",
+                "userName": "BB机1",
 
                 "companyName": "北京电影",
 
@@ -76,7 +76,7 @@ const testData = {
 
                 "userName": "BB机",
 
-                "companyName": "北京电影",
+                "companyName": "武汉电影",
 
                 "ptypeName": "9",
 
@@ -94,7 +94,7 @@ const testData = {
 
                 "userName": "BB机",
 
-                "companyName": "北京电影",
+                "companyName": "长春电影",
 
                 "ptypeName": "7",
 
@@ -128,7 +128,7 @@ const testData = {
 
                 "id": 11,
 
-                "userName": "BB机",
+                "userName": "马冬梅",
 
                 "companyName": "北京电影",
 
