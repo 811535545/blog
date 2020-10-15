@@ -54,7 +54,7 @@ function createTable(currPage, limit, total) {
 
     html.push('</tbody></table>');
 
-    var mainObj = $('#mainContent');
+    const mainObj = $('#mainContent');
 
     mainObj.empty();
 
