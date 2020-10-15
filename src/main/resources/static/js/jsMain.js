@@ -17,9 +17,9 @@ function data(curr, limit) {
 
 function createTable(currPage, limit, total) {
 
-    var html = [],
+    let html = [],
 
-        showNum = limit;
+    showNum = limit;
 
     if (total - (currPage * limit) < 0) showNum = total - ((currPage - 1) * limit);
 
@@ -27,8 +27,7 @@ function createTable(currPage, limit, total) {
 
     html.push(' <thead><tr><th>序号</th><th>项目名称</th><th>类别</th><th>发起人</th><th>单位</th><th>详情</th><th>操作</th></tr></thead><tbody>');
 
-
-    for (var i = 0; i < showNum; i++) {
+    for (let i = 0; i < showNum; i++) {
 
         html.push('<tr>');
 
@@ -67,6 +66,7 @@ const currPage = 1;  //默认页码数量
 let totalCount = 0;    /*取到总条数*/
 let dataLIst = [];
 let limit = 10; /*每页显示多少条  10条*/
+
 window.onload = function () {
 
     console.log("tot:" + "我丢丢!")
