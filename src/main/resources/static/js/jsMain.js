@@ -1,32 +1,4 @@
-//定义常量
-const currPage = 1;  //默认页码数量
-let totalCount = 0;    /*取到总条数*/
-let dataLIst = [];
-let limit = 10; /*每页显示多少条  10条*/
-window.onload = function () {
-
-
-    console.log("tot:" + "我丢丢!")
-
-    data(currPage, limit)
-
-    createTable(1, limit, totalCount);
-
-    $('#callBackPager').extendPagination({
-
-        totalCount: totalCount,
-
-        limit: limit,
-
-        callback: function (curr, limit, totalCount) {
-
-            data(curr, limit)
-
-        }
-
-    });
-
-}
+document.write("<script src='./js/listSource.js' type='text/javascript'></script>");
 
 function data(curr, limit) {
     //console.log("tot:"+totalCount)
@@ -87,5 +59,34 @@ function createTable(currPage, limit, total) {
     mainObj.empty();
 
     mainObj.html(html.join(''));
+
+}
+
+//定义常量
+const currPage = 1;  //默认页码数量
+let totalCount = 0;    /*取到总条数*/
+let dataLIst = [];
+let limit = 10; /*每页显示多少条  10条*/
+window.onload = function () {
+
+    console.log("tot:" + "我丢丢!")
+
+    data(currPage, limit)
+
+    createTable(1, limit, totalCount);
+
+    $('#callBackPager').extendPagination({
+
+        totalCount: totalCount,
+
+        limit: limit,
+
+        callback: function (curr, limit, totalCount) {
+
+            data(curr, limit)
+
+        }
+
+    });
 
 }
