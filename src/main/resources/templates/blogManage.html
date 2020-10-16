@@ -2,13 +2,34 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>博客管理</title>
+    <link type="text/css" rel="stylesheet" th:href="@{/css/blogManage.css}"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/3.3.7/css/bootstrap.min.css}">
 </head>
 <body>
-<div th:class="a-div" aria-valuetext="" class="" >
 
-
+<div id="head">head</div>
+<div id="content">
+    <div id="left">left
+        <div class="container">
+            <div class="row">
+                <div class="span2">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">Practice Editor </a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="c">content</div>
+    <div id="right">rigth</div>
 </div>
+<div id="foot">foot</div>
+
 </body>
 <footer>
 

@@ -30,4 +30,14 @@ public class MainController {
         return "main";
     }
 
+
+
+    /**
+     * 登陆成功，随意访问资源
+     */
+    @GetMapping("/blogManage")
+    public String blogManagePage() {
+        return "blogManage";
+    }
+
 }
