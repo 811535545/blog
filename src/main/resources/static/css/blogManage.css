@@ -8,34 +8,34 @@ html, body {
     height: 100%;
 }
 
-#content{
-    background:#CCCCCC;
-    height:200px;
-    margin:0;
+#content {
+    width: 100%;
+    height: 200px;
+    background: red;
+    margin: 0;
+    float: left;
 }
-#left{
-    width:20%;
-    height:200px;
-    background:#CCCC66;
-    float:left;
-    margin:0;
+
+#left {
+    width: 20%;
+    height: 200px;
+    background: #CCCC66;
+    float: left;
+    margin: 0;
 }
-#c{
-    width:60%;
-    height:200px;
-    background:red;
-    margin:0;
-    float:left;
+
+#right {
+    width: 20%;
+    height: 200px;
+    background: #339966;
+    float: right;
+    margin: 0;
 }
-#right{
-    width:20%;
-    height:200px;
-    background:#339966;
-    float:right;
-    margin:0;
+
+#span2 {
+    background: #7d1dea;
+    height: 40px;
+    margin: 0;
 }
-#foot{
-    background:#0099CC;
-    height:40px;
-    margin:0;
-}
+
+
